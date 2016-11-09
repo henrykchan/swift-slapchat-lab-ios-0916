@@ -13,6 +13,8 @@
 		3D7AE44A1D3B2FCE00964D7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D7AE4481D3B2FCE00964D7D /* LaunchScreen.storyboard */; };
 		3D7AE46E1D3B2FE900964D7D /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7AE46D1D3B2FE900964D7D /* DataStore.swift */; };
 		3D7AE4701D3B30FC00964D7D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7AE46F1D3B30FC00964D7D /* TableViewController.swift */; };
+		72BA3F101DD3787500999B6D /* SlapChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72BA3F0E1DD3787500999B6D /* SlapChat.xcdatamodeld */; };
+		72BA3F141DD3BD9800999B6D /* AddMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BA3F131DD3BD9800999B6D /* AddMessageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3D7AE44B1D3B2FCE00964D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D7AE46D1D3B2FE900964D7D /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		3D7AE46F1D3B30FC00964D7D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		72BA3F0F1DD3787500999B6D /* slapChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = slapChat.xcdatamodel; sourceTree = "<group>"; };
+		72BA3F131DD3BD9800999B6D /* AddMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMessageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		3D7AE4301D3B2FCD00964D7D = {
 			isa = PBXGroup;
 			children = (
+				7201CBEF1DD2478100BBEBCA /* Model */,
 				3D7AE43B1D3B2FCE00964D7D /* SlapChat */,
 				3D7AE43A1D3B2FCE00964D7D /* Products */,
 			);
@@ -56,6 +61,7 @@
 		3D7AE43B1D3B2FCE00964D7D /* SlapChat */ = {
 			isa = PBXGroup;
 			children = (
+				72BA3F131DD3BD9800999B6D /* AddMessageViewController.swift */,
 				3D7AE43C1D3B2FCE00964D7D /* AppDelegate.swift */,
 				3D7AE46D1D3B2FE900964D7D /* DataStore.swift */,
 				3D7AE46F1D3B30FC00964D7D /* TableViewController.swift */,
@@ -65,6 +71,14 @@
 				3D7AE44B1D3B2FCE00964D7D /* Info.plist */,
 			);
 			path = SlapChat;
+			sourceTree = "<group>";
+		};
+		7201CBEF1DD2478100BBEBCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72BA3F0E1DD3787500999B6D /* SlapChat.xcdatamodeld */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D7AE46E1D3B2FE900964D7D /* DataStore.swift in Sources */,
+				72BA3F141DD3BD9800999B6D /* AddMessageViewController.swift in Sources */,
+				72BA3F101DD3787500999B6D /* SlapChat.xcdatamodeld in Sources */,
 				3D7AE43D1D3B2FCE00964D7D /* AppDelegate.swift in Sources */,
 				3D7AE4701D3B30FC00964D7D /* TableViewController.swift in Sources */,
 			);
@@ -306,6 +322,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72BA3F0E1DD3787500999B6D /* SlapChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72BA3F0F1DD3787500999B6D /* slapChat.xcdatamodel */,
+			);
+			currentVersion = 72BA3F0F1DD3787500999B6D /* slapChat.xcdatamodel */;
+			path = SlapChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3D7AE4311D3B2FCD00964D7D /* Project object */;
 }
